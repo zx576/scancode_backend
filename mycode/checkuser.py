@@ -14,10 +14,7 @@ def decrypt(*userinfo):
 
 
 def checkdata(code, ecrypteddata, iv):
-    # print(code)
-    # 公众号 ID
-    # appid = 'wx0d67af1e40427689'
-    # secret = 'bb6e273039f6d745c75fb6931cdd20f2'
+
 
     # 编程教室官方 appid
     appid = 'wx yourappid d9'
