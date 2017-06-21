@@ -10,3 +10,4 @@ nohup.out
 *.pid
 *.save
 settings_server.py
+db.sqlite3
