@@ -60,10 +60,8 @@ def checkdata(code, ecrypteddata, iv):
 def gen_cookie(k):
     ascii_le = string.ascii_letters
     digits = string.digits
-
     str_dir = ascii_le + digits
     lst_dir = list(str_dir * 10)
-
     cookie = ''.join(random.sample(lst_dir,k))
 
     return cookie
